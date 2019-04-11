@@ -19,3 +19,5 @@ sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 systemctl start mariadb
 mysql_secure_installation
 systemctl restart mariadb
+
+sudo pacman -S gnome-shell chrome-gnome-shell gtk-theme-arc-git numix-circle-icon-theme-git 
