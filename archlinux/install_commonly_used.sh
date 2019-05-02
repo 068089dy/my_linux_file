@@ -24,3 +24,7 @@ sudo pacman -S gnome-shell chrome-gnome-shell gtk-theme-arc-git numix-circle-ico
 
 ### majanro
 sudo pacman -S archlinuxcn-keyring v2ray fcitx fcitx-configtool fcitx-sougoupinyin
+touch ~/.xprofile &&
+echo "export GTK_IM_MODULE=fcitx" >> ~/.xprofile &&
+echo "export QT_IM_MODULE=fcitx" >> ~/.xprofile &&
+echo "export XMODIFIERS=@im=fcitx" >> ~/.xprofile &&
