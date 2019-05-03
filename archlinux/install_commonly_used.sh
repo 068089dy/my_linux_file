@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S wget terminator visual-studio-code-bin telegram-desktop kdenlive obs-studio firefox google-chrome htop nmap net-tools ibus ibus-google-pinyin vim zsh flameshot wps-office terminator netease-cloud-music v2ray proxychains vlc
+sudo pacman -S wget terminator visual-studio-code-bin telegram-desktop kdenlive obs-studio alsa-utils firefox google-chrome htop nmap net-tools ibus ibus-google-pinyin vim zsh flameshot wps-office terminator netease-cloud-music v2ray proxychains vlc
 
 # coding
 sudo pacman -S mysql-workbench pycharm-community-edition redis-desktop-manager
